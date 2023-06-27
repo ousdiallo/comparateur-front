@@ -1,0 +1,26 @@
+<div class="card mb-3 shadow-sm bg-white rounded " style="max-width: 400px;">
+      <div class="card-header text-center text-primary">
+          <strong>{{ formatPrice(product.price) }} FCFA</strong>
+      </div>
+      <a href="{{ product.url }}">
+          <img src="{{ product.image }}" alt="{{ product.title }}" class="img-fluid rounded-start">
+      </a>
+      <div class="card-body">
+          <h6 class="card-title">
+              <a href="{{ product.url }}">
+                  {{ product.title }}
+              </a>
+          </h6>
+          <p class="card-text">{{ product.category }}</p>
+          <p class="card-text">{{ product.brand }}</p>
+      </div>
+      <div class="card-footer text-muted text-center">
+        <span class="badge bg-primary">
+            {{ product.score }}
+        </span>
+        <span class="text-primary">
+          sur {{ product.nbreviews }} avis
+      </span>
+    </div>
+</div>  
+
