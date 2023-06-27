@@ -11,8 +11,10 @@
                   {{ product.title }}
               </a>
           </h6>
-          <p class="card-text">{{ product.category }}</p>
-          <p class="card-text">{{ product.brand }}</p>
+          <p>
+            <strong>Marque :</strong> {{ product.brand }} <br>
+            <em>Catégorie :</em> {{ product.category }}
+          </p>
       </div>
       <div class="card-footer text-muted text-center">
         <span class="badge bg-primary">
