@@ -1,28 +1,16 @@
-# Comparateur
+# Comparateur de Prix
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.3.
+Ce projet est une application de comparateur de prix qui permet aux utilisateurs de rechercher des produits et de comparer les prix provenant de différentes boutiques en ligne.
 
-## Development server
+## Fonctionnalités
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Recherche de produits par mots-clés
+- Affichage des résultats de recherche avec les prix correspondants
+- Comparaison des prix provenant de différentes boutiques
+- Filtrage des produits par catégorie, marque, etc.
+- Affichage des détails des produits avec images, descriptions et informations supplémentaires
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# comparateur-front
